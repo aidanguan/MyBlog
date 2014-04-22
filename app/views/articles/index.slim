@@ -1,0 +1,39 @@
+
+.list
+  .listcontent
+    -for article in @articles
+      p
+        = article.title
+
+.indexbtn
+  .ibtn
+    img src='/images/index/index-btn.png'
+
+
+.scrollbar
+  .prevpage
+    .ibtn
+      img src='/images/index/prev-btn.png'
+
+  .nextpage
+    .ibtn
+      img src='/images/index/next-btn.png'
+
+.wrap
+  .page-scroll
+    - for article in @articles
+      .page
+        .title
+          = article.title
+        .content
+          = article.content.html_safe
+
+
+#mask
+    /p
+    /  = article.created_at
+    /p
+    /  = article.author
+    /  = image_tag article.user_avatar, height:'20'
+
+
