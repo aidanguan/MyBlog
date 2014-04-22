@@ -2,13 +2,13 @@
   = @user.errors.messages
   .field
     = f.label :name, 'name'
-    = f.text_field :name
+    = f.text_field :name,:class=>"form-control"
   .field
     = f.label :email, 'eMail'
-    = f.text_field :email
+    = f.text_field :email,:class=>"form-control"
   .field
     = f.label :avatar, 'Avatar'
-    = f.file_field :avatar
+    = f.file_field :avatar,:class=>"form-control"
   /.field
   /  = f.label :password, 'password'
   /  = f.text_field :password
@@ -18,5 +18,5 @@
     = f.radio_button :role, 'Pitizen'
     = f.label :role_pitizen, 'Pitizen'
   .action
-    = f.submit 'submit'
+    = f.submit 'submit', :class=>'btn btn-primary'
 end

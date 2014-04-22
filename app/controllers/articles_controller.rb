@@ -32,7 +32,7 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
     @article.attributes = article_params
     if @article.save
-      redirect_to articles_path
+      redirect_to user_path(@article.user.id)
     else
       render 'edit'
     end
@@ -41,7 +41,7 @@ class ArticlesController < ApplicationController
 
   def show
     @article = Article.find(params[:id])
-    layout false
+    # layout false
   end
 
   def destroy

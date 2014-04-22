@@ -2,33 +2,32 @@
   =@article.errors.messages
 
 
-
   .field
     p
       = f.label :title, '标题'
     p
-      = f.text_field :title
+      = f.text_field :title,:class=>"form-control"
 
   .field
     p
     = f.label :description, '简介'
     p
-    = f.text_area :description
+    = f.text_area :description,:class=>"form-control"
 
   .field
     p
     = f.label :content, '正文'
     p
-    = f.text_area :content
+    = f.kindeditor :content,:class=>"form-control"
 
   .field
     p
     = f.label :tag, '标签'
     p
-    = f.text_area :tag
+    = f.text_area :tag,:class=>"form-control"
 
   .action
-    = f.submit '提交'
+    = f.submit '提交', :class=>'btn btn-primary'
 
 
 

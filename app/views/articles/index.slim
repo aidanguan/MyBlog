@@ -1,39 +1,36 @@
+.container
+  ol.breadcrumb
+    li
+      = link_to '首页','#'
+    li.active
+      = link_to '内容管理','#'
 
-.list
-  .listcontent
-    -for article in @articles
-      p
-        = article.title
-
-.indexbtn
-  .ibtn
-    img src='/images/index/index-btn.png'
-
-
-.scrollbar
-  .prevpage
-    .ibtn
-      img src='/images/index/prev-btn.png'
-
-  .nextpage
-    .ibtn
-      img src='/images/index/next-btn.png'
-
-.wrap
-  .page-scroll
-    - for article in @articles
-      .page
-        .title
-          = article.title
-        .content
-          = article.content.html_safe
+  .btn-group
+    = link_to '写博客', new_article_path, :class => 'btn btn-primary'
 
 
-#mask
-    /p
-    /  = article.created_at
-    /p
-    /  = article.author
-    /  = image_tag article.user_avatar, height:'20'
 
 
+    / .alist
+    /   / = render :partial=>"article_list", :locals=>{:article=>Article.where(:user_id=>@user.id)}
+    /   = render :partial=>"article_list", :locals=>{:articles=>@articles}
+  .row
+    .col-md-12
+      table.table.table-responsive.table-hover
+        thead
+          th 标题
+          th 摘要
+          th 作者
+          th 时间
+          th 操作
+
+        tbody
+          - for article in @articles
+            tr
+              td = article.title
+              td = article.description
+              td = article.user.name
+              td = article.created_at
+              td
+                = link_to '查看', article_path(article)
+      end

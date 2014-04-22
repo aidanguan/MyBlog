@@ -59,7 +59,8 @@ Myblog::Application.routes.draw do
   resources :blogs do
   end
 
-  resource :m do
+  resources :mobiles do
+
   end
 
 

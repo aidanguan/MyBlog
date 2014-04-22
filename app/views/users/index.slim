@@ -14,16 +14,18 @@
     / .alist
     /   / = render :partial=>"article_list", :locals=>{:article=>Article.where(:user_id=>@user.id)}
     /   = render :partial=>"article_list", :locals=>{:articles=>@articles}
-  .form
-    table
-      thead
-        th 用户名
-        th 角色
-      tbody
-        - for user in @users
-          tr
-            td = user.name
-            td = user.role
-            td
-              = link_to '查看', user_path(user)
-    end
+  .row
+    .col-md-12
+      table.table.table-responsive.table-hover
+        thead
+          th 用户名
+          th 角色
+          th 操作
+        tbody
+          - for user in @users
+            tr
+              td = user.name
+              td = user.role
+              td
+                = link_to '查看', user_path(user)
+      end
