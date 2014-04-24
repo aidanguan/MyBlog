@@ -26,3 +26,10 @@ $(document).ready(function(){
     }
   });
 });
+
+
+$(document).ready(function(){
+  $('.refresh').click(function(){
+    location.reload(true);
+  });
+});
