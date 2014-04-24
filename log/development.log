@@ -68323,3 +68323,1003 @@ Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24
 
 
 Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 15:36:55 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 15:49:06 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (3.3ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 15:49:06 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 15:49:06 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 15:49:06 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 15:49:06 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 15:49:06 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 15:49:20 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 15:49:20 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 15:49:20 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 15:49:20 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 15:49:20 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 15:49:20 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 15:49:35 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 15:49:35 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 15:49:35 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 15:49:35 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 15:49:35 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 15:49:35 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 15:59:19 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 15:59:19 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 15:59:19 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 15:59:19 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 15:59:19 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 15:59:19 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:00:00 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:00:00 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:00:00 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:00:00 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:00:00 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:00:00 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:06:02 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.7ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:06:02 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:06:02 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:06:02 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:06:02 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:06:02 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:01 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:01 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:01 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:07:01 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:07:01 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:07:01 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:08 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:08 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:08 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:07:08 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:07:08 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:07:08 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:12 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:12 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:12 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:07:12 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:07:12 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:07:12 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:13 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:13 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:13 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:07:13 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:07:13 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:07:13 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:15 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:15 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:15 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:07:15 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:07:15 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:07:15 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:16 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:16 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:16 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:07:16 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:07:16 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:07:16 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:19 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.7ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:19 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:07:19 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:07:19 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:07:19 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:07:19 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:24 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:24 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:35 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:36 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:36 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:37 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:53 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:55 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:55 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:56 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:57 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:58 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:07:58 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.7ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 127.0.0.1 at 2014-04-24 16:08:06 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (1.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-04-24 16:08:06 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 127.0.0.1 at 2014-04-24 16:08:06 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 127.0.0.1 at 2014-04-24 16:08:06 +0800
+
+
+Started GET "/assets/mobile.js" for 127.0.0.1 at 2014-04-24 16:08:06 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 127.0.0.1 at 2014-04-24 16:08:06 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.map" for 127.0.0.1 at 2014-04-24 16:08:09 +0800
+
+
+Started GET "/mobiles" for 127.0.0.1 at 2014-04-24 16:08:32 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-04-24 16:08:32 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 127.0.0.1 at 2014-04-24 16:08:32 +0800
+
+
+Started GET "/assets/mobile.js" for 127.0.0.1 at 2014-04-24 16:08:32 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 127.0.0.1 at 2014-04-24 16:08:32 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 127.0.0.1 at 2014-04-24 16:08:32 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.map" for 127.0.0.1 at 2014-04-24 16:08:32 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:08:53 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 127.0.0.1 at 2014-04-24 16:09:32 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 127.0.0.1 at 2014-04-24 16:09:32 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 127.0.0.1 at 2014-04-24 16:09:32 +0800
+
+
+Started GET "/assets/mobile.js" for 127.0.0.1 at 2014-04-24 16:09:32 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 127.0.0.1 at 2014-04-24 16:09:32 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 127.0.0.1 at 2014-04-24 16:09:32 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.map" for 127.0.0.1 at 2014-04-24 16:09:33 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:09:36 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:09:39 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:09:43 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:09:45 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:09:49 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:09:49 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:09:49 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:09:49 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:09:49 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:09:49 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:10:15 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:10:15 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:10:15 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:10:15 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:10:15 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:10:15 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:11:18 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:11:18 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:11:18 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:11:18 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:11:18 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:11:18 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:12:23 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:12:24 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:12:24 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:12:24 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:12:24 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:12:24 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:12:41 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:12:41 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:12:41 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:12:41 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:12:41 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:12:41 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:12:51 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:12:51 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:12:51 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:12:51 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:12:51 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:12 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.7ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:14 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.7ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:20 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:21 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:24 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:24 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:25 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:26 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:26 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:27 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:28 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:30 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:31 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:32 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (1.1ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/mobiles" for 192.168.5.133 at 2014-04-24 16:13:46 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.133 at 2014-04-24 16:13:46 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.133 at 2014-04-24 16:13:46 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.133 at 2014-04-24 16:13:46 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.133 at 2014-04-24 16:13:46 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.133 at 2014-04-24 16:13:46 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:13:58 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:13:58 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:13:58 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:13:58 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:13:58 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:13:58 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:14:33 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:14:33 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:14:33 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:14:33 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:14:33 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:14:33 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:15:01 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:15:01 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:15:01 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:15:01 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:15:01 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:15:01 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:15:16 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:15:17 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:15:17 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:15:17 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:15:17 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:15:17 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:15:40 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:15:40 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:15:40 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:15:40 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:15:40 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:15:40 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:17:35 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (1.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:17:35 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:17:35 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:17:35 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:17:35 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:17:35 +0800
+
+
+Started GET "/mobiles" for 192.168.5.133 at 2014-04-24 16:19:35 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.133 at 2014-04-24 16:19:35 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.133 at 2014-04-24 16:19:35 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.133 at 2014-04-24 16:19:35 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.133 at 2014-04-24 16:19:35 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.133 at 2014-04-24 16:19:35 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:19:36 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:19:36 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:19:36 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:19:36 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:19:36 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:19:36 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:19:50 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:19:50 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:19:50 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:19:50 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:19:50 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:19:50 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:21:41 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.1ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:21:41 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:21:41 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:21:41 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:21:41 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:21:41 +0800
+
+
+Started GET "/mobiles" for 192.168.5.152 at 2014-04-24 16:22:10 +0800
+Processing by MobilesController#index as HTML
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.152 at 2014-04-24 16:22:10 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.152 at 2014-04-24 16:22:10 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.152 at 2014-04-24 16:22:10 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.152 at 2014-04-24 16:22:10 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.152 at 2014-04-24 16:22:10 +0800
+
+
+Started GET "/mobiles" for 192.168.5.165 at 2014-04-24 16:30:13 +0800
+Processing by MobilesController#index as HTML
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"   ORDER BY created_at desc[0m
+  Rendered mobiles/index.slim within layouts/mobile_layout (0.9ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/mobile.css?body=1" for 192.168.5.165 at 2014-04-24 16:30:13 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.css?body=1" for 192.168.5.165 at 2014-04-24 16:30:13 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 192.168.5.165 at 2014-04-24 16:30:13 +0800
+
+
+Started GET "/assets/jquery.mobile-1.4.2.min.js" for 192.168.5.165 at 2014-04-24 16:30:14 +0800
+
+
+Started GET "/assets/mobile.js" for 192.168.5.165 at 2014-04-24 16:30:14 +0800

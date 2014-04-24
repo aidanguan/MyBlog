@@ -24,14 +24,17 @@ body{
   /*display: inline-block;*/
   position:relative;
   float: left;
-  overflow-y:scroll;
+  overflow:auto;
+  -webkit-overflow-scrolling:touch
+
 }
 
 .title{
   padding-left: 6%;
   padding-right: 6%;
   font-size: 5em;
-  padding-bottom: 1em;
+  padding-top:6%;
+  padding-bottom: 0.7em;
 
 
 }

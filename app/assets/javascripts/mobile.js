@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
   var pagelength = $('.page').length
   var windowwidth = $(window).width()
