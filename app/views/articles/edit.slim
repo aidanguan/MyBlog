@@ -1,3 +1,15 @@
 .container
+  ol.breadcrumb
+    li
+      = link_to '首页','#'
+    li
+      = link_to '内容管理', '#'
+    li.active
+      = link_to '详情','#'
 
-  = render :partial=>"form"
+
+  .row
+    .col-md-9
+      = render :partial=>"form"
+    .col-md-3
+

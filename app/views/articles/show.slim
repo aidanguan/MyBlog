@@ -1,0 +1,35 @@
+.container
+  ol.breadcrumb
+    li
+      = link_to '首页','#'
+    li
+      = link_to '内容管理','#'
+    li.active
+      = link_to '详情','#'
+
+
+  .row
+    .col-md-9
+      .title
+        h1 = @article.title
+      .content
+        = @article.content.html_safe
+      p
+        = @article.created_at
+
+    .col-md-3
+      .btn-group
+        = button_to ' 编 辑 ', edit_article_path, method: :get, :class => 'btn btn-primary'
+
+        = button_to ' 删 除 ', article_path, method: :delete, :class => 'btn btn-danger'
+
+      h4
+        |创建时间
+      P
+        = @article.created_at
+      h4
+        |更新时间
+      p
+        = @article.updated_at
+
+

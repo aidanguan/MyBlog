@@ -26,8 +26,8 @@
 
   = render :partial=>"article_list", :locals=>{:articles => @user.articles}
   = render :partial=>"article_form", :locals=>{:article=>Article.new(:user_id=>@user.id)}
-  = link_to ' 编辑 ', edit_user_path
-  = link_to ' 删除 ', user_path, method: :delete, data: {confirm: '你确认么？'}
+  = button_to ' 编辑 ', edit_user_path, method: :get
+  = button_to ' 删除 ', user_path, method: :delete, data: {confirm: '你确认么？'}
   = link_to ' 返回 ', users_path
 
 

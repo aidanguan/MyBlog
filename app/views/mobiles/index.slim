@@ -1,28 +1,13 @@
-.panel-overlay
-.panel.panel-left.panel-reveal
-  .content-block
-    p left
+.wrap
+  .container
+    .page-scroll
+      / - for article in @articles
+      - @articles.each_with_index do |article,index|
+        .page data=index
+          .title
+            = article.title
+          .content
+            = article.content.html_safe
 
-.views
-  .vie.view-main data-page="index"
-    .navbar
-      .navbar-inner
-        .center.sliding
-          |Aidan的博客
-        .right
-          =link_to '#', :class=>"link icon-only open-panel"
-            i.icon.icon-bars-blue
-    .pages.navbar-through.toolbar-throught
-      .page data-page="index"
-        .page-content
-          .list-block
-            ul
-              -for article in @articles
-                li
-                  =link_to mobiles_path(article),:class=>'item-link'
-                    .item-content
-                      .item-inner
-                        .item-title
-                          = article.title
 
 

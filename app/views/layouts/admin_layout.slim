@@ -2,9 +2,10 @@ html
   head
     =stylesheet_link_tag "bootstrap"
     =stylesheet_link_tag "admin"
-    script src="/assets/jquery-2.1.0.min.js"
-    script src="/assets/bootstrap.js"
     script src="/assets/kindeditor/kindeditor.js"
+    = stylesheet_link_tag    "admin", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "admin", "data-turbolinks-track" => true
+    = csrf_meta_tags
 
   body
     .navbar.navbar-inverse.navbar-fixed-top
