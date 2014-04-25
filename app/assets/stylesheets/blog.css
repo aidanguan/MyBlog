@@ -1,6 +1,7 @@
 
 html{
   height: 100%;
+  font-size: 16px;
 }
 body {
   background-color:#ebebeb;
@@ -41,18 +42,20 @@ p{
   height: 100%;
   overflow: hidden;
 }
+
 .page-scroll{
   position: absolute;
   width: 100%;
   top:0px;
 }
+
 .page{
   height: 100%;
   overflow-y:auto;
 }
 
 .title {
-  font-size: 24pt;
+  font-size: 1.5em;
   font-weight: bold;
   margin-top:6px;
   margin-bottom: 6px;
@@ -65,25 +68,37 @@ p{
   line-height: 150%;
   margin-top:6px;
   margin-bottom: 6px;
-
-
 }
 
 .user{
   text-align: right;
-  font-size: 12pt;
+  font-size: 1em;
   font-weight: 100;
-
 }
 
 
-.indexbtn{
+.indexbtngroup{
   /*opacity:0.8;*/
   position: absolute;
-  top: 6px;
-  left: 6px;
+  top: 0.5em;
+  left: 0.5em;
   z-index: 99;
+  width: 3em;
+  height: 3em;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  display: table;
+  text-align: center;
+}
 
+.icon-indexbtn{
+  font-family:'icomoon';
+  color: #1c1c1c;
+  z-index: 100;
+  display: table-cell;
+  vertical-align: middle;
+  width: 3em;
+  height: 3em;
 }
 
 .scrollbar{
@@ -95,6 +110,27 @@ p{
   /*margin-right:50px;*/
 }
 
+.icon-arrow-down{
+  font-family:'icomoon';
+  font-weight: bold;
+  color: #1c1c1c;
+  z-index: 100;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-arrow-up{
+  font-family:'icomoon';
+  font-weight: bold;
+  color: #1c1c1c;
+  z-index: 100;
+  display: table-cell;
+  vertical-align: middle;
+  width: 3em;
+  height: 3em;
+}
 
 .ibtn{
   margin:24px;
@@ -102,6 +138,8 @@ p{
   height: 50px;
   background-color: #e0e0e0;
   border-radius: 50%;
+  display: table;
+  text-align: center;
 }
 
 #mask{

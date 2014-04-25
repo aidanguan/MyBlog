@@ -1,18 +1,21 @@
 html{
   height: 100%;
+  font-size:16px;
 
 }
 
 body{
   position: relative;
-  background-color:#ebebeb;
+
   width: 100%;
-  color:#353434;
+
   overflow: hidden;
 }
 
 
 .page-scroll{
+  background-color:#ebebeb;
+  color:#353434;
   height: 100%;
   position: relative;
   left:0px;
@@ -20,36 +23,98 @@ body{
   /*display: inline-block;*/
 }
 .page{
-
   /*display: inline-block;*/
   position:relative;
   float: left;
   overflow:auto;
   -webkit-overflow-scrolling:touch
-
 }
 
 .title{
   padding-left: 6%;
   padding-right: 6%;
-  font-size: 5em;
+  font-size: 1.2em;
   padding-top:6%;
   padding-bottom: 0.7em;
-
-
+  font-weight: bold;
 }
 
 .content{
-  font-size: 4em;
+  font-size: 1em;
   padding-left: 6%;
   padding-right: 6%;
 
 }
 
 .refresh{
-  background-color: red;
+  position: absolute;
+  float: right;
+  left:84%;
+  background-color: #e0e0e0;
+  opacity: 80%;
+  box-shadow:1px 1px 5px #333333;
   border-radius: 50%;
-  width: 7em;
-  height:7em;
+  top: 1em;
+  width: 2em;
+  height: 2em;
+  z-index: 98;
+  display: table;
+  text-align: center;
+}
 
+.icon-refreshbtn{
+  color: #1c1c1c;
+  font-family: 'icomoon';
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  z-index: 99;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+/*安卓全高清设备的媒体查询*/
+@media(min-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) {
+  html{
+    font-size: 16px;
+  }
+  .title{
+    font-size: 2em;
+    padding-bottom: 0.5em;
+  }
+  .content{
+    font-size: 1em;
+  }
+  .refresh{
+    width: 2em;
+    height: 2em;
+  }
+  .icon-refreshbtn{
+    width: 2em;
+    height: 2em;
+  }
+}
+
+/*iphone设备的媒体查询*/
+@media(max-device-width: 900px) and (-webkit-min-device-pixel-ratio: 2) {
+  html{
+    font-size: 32px;
+  }
+  .title{
+    font-size: 4em;
+    padding-bottom: 0.5em;
+  }
+  .content{
+    font-size: 4em;
+  }
+  .refresh{
+    width: 4.4em;
+    height: 4.4em;
+
+  }
+  .icon-refreshbtn{
+    font-size: 2.4em;
+  }
 }

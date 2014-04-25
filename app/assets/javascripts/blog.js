@@ -1,9 +1,9 @@
 console.log($('.page').length)
 $(document).ready(function(){
 console.log($('.page').length)
-
+//往下翻页，
   $('.page').height($(window).height())
-  $(".nextpage").click(function(){
+  $(".icon-arrow-up").click(function(){
     // console.log($(this))
     if ($('.page-scroll').css("top") == -($('.page').length-1)*$(window).height()+'px') {
 
@@ -14,9 +14,9 @@ console.log($('.page').length)
     }
   });
 });
-
+//往上翻页
 $(document).ready(function(){
-  $(".prevpage").click(function(){
+  $(".icon-arrow-down").click(function(){
     if ($('.page-scroll').css("top") == "0px") {
 
     }else{
@@ -28,7 +28,7 @@ $(document).ready(function(){
 });
 var flag =1
 $(document).ready(function(){
-  $(".indexbtn").click(function(){
+  $(".icon-indexbtn").click(function(){
     if (flag == 1) {
       $('.indexbtn').animate({left:'300px'});
       $('.list').animate({left:'0px'},function(){
