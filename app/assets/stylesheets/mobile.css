@@ -103,13 +103,15 @@ body{
     font-size: 32px;
   }
   .title{
+    padding-top:1.5em;
     font-size: 4em;
     padding-bottom: 0.5em;
   }
   .content{
-    font-size: 4em;
+    font-size: 3em;
   }
   .refresh{
+    top:4em;
     width: 4em;
     height: 4em;
 
