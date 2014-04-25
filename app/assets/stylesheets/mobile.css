@@ -110,11 +110,11 @@ body{
     font-size: 4em;
   }
   .refresh{
-    width: 4.4em;
-    height: 4.4em;
+    width: 4em;
+    height: 4em;
 
   }
   .icon-refreshbtn{
-    font-size: 2.4em;
+    font-size: 2em;
   }
 }
