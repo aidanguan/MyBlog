@@ -16,8 +16,8 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.all
-    @articles = Article.order("created_at desc")
+    @users = User.order("created_at desc").page(params[:page]||1).per(params[:per]||10)
+    @articles = Article.order("created_at desc").page(params[:page]||1).per(params[:per]||10)
   end
 
   def edit

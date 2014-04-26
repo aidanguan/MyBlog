@@ -63,6 +63,14 @@ Myblog::Application.routes.draw do
 
   end
 
+  namespace :api do
+    resources :articles
+    # collection do
+    #   get 'articles'
+    # end
+  end
+
+
 
 
 
