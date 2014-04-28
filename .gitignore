@@ -3,3 +3,8 @@
 /tmp
 /public/uploads
 /log/*.*
+*.sqlite3
+
+db/development.sqlite3
+
+log/development.log

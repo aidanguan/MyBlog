@@ -80252,3 +80252,188 @@ Started GET "/assets/jquery-2.1.0.min.js" for 127.0.0.1 at 2014-04-27 17:59:13 +
 
 
 Started GET "/assets/blog.js" for 127.0.0.1 at 2014-04-27 17:59:13 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-28 15:31:45 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BlogsController#index as HTML
+  [1m[35mArticle Load (0.5ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered blogs/index.slim within layouts/blog_layout (20.4ms)
+Completed 200 OK in 56ms (Views: 37.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-04-28 15:31:45 +0800
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-04-28 15:31:45 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 127.0.0.1 at 2014-04-28 15:31:45 +0800
+
+
+Started GET "/assets/blog.js" for 127.0.0.1 at 2014-04-28 15:31:45 +0800
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-04-28 15:31:50 +0800
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 3ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-04-28 15:31:50 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb (22.7ms)
+Completed 200 OK in 42ms (Views: 27.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-04-28 15:31:55 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e0mwuYcLhk906dd3v/FXsg+E12ClXCaUvnXSGkk29qA=", "user"=>{"email"=>"yidong.guan@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'yidong.guan@gmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 12[0m  [["current_sign_in_at", "2014-04-28 07:31:55.390360"], ["last_sign_in_at", "2014-04-26 05:53:12.264325"], ["sign_in_count", 15], ["updated_at", "2014-04-28 07:31:55.391337"]]
+  [1m[35m (3.7ms)[0m  commit transaction
+Redirected to http://localhost:3001/articles
+Completed 302 Found in 90ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-04-28 15:31:55 +0800
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 12  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT  "articles".* FROM "articles"   ORDER BY created_at desc LIMIT 20 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  Rendered articles/index.slim within layouts/admin_layout (25.6ms)
+Completed 200 OK in 69ms (Views: 66.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-28 15:31:55 +0800
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-04-28 15:31:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-28 15:31:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-28 15:31:55 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-04-28 15:31:55 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-28 15:31:55 +0800
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-04-28 15:31:56 +0800
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 12  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered articles/_form.slim (14.5ms)
+  Rendered articles/new.slim within layouts/admin_layout (17.8ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2014-04-28 15:31:58 +0800
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 12  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered articles/_form.slim (5.4ms)
+  Rendered articles/new.slim within layouts/admin_layout (7.7ms)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-28 15:31:58 +0800
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-04-28 15:31:58 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-28 15:31:58 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-28 15:31:58 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-28 15:31:58 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-04-28 15:31:58 +0800
+
+
+Started POST "/kindeditor/upload?dir=image" for 127.0.0.1 at 2014-04-28 15:32:14 +0800
+Processing by Kindeditor::AssetsController#create as HTML
+  Parameters: {"localUrl"=>"C:\\fakepath\\IMG_4063.jpg", "imgFile"=>#<ActionDispatch::Http::UploadedFile:0x00000101f95518 @tempfile=#<Tempfile:/var/folders/yf/49vm_h4126n2twfpfwzyk4_w0000gn/T/RackMultipart20140428-20652-wzljpe>, @original_filename="IMG_4063.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"imgFile\"; filename=\"IMG_4063.jpg\"\r\nContent-Type: image/jpeg\r\n">, "dir"=>"image"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2014-04-28 15:32:27 +0800
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5A/dwnEepeO9vA1U5nmq1J9zF8gQuLtBIOsS7U/1CBQ=", "article"=>{"title"=>"传图", "description"=>"", "content"=>"传图<img src=\"http://localhost:3001/uploads/image/201404/eb23981d26b8.jpg\" alt=\"\" width=\"480\" height=\"640\" title=\"\" align=\"\" />", "tag"=>""}, "commit"=>" 提 交 "}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 12  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "articles" ("content", "created_at", "description", "tag", "title", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?)  [["content", "传图<img src=\"http://localhost:3001/uploads/image/201404/eb23981d26b8.jpg\" alt=\"\" width=\"480\" height=\"640\" title=\"\" align=\"\" />"], ["created_at", "2014-04-28 07:32:27.257944"], ["description", ""], ["tag", ""], ["title", "传图"], ["updated_at", "2014-04-28 07:32:27.257944"], ["user_id", 12]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3001/articles
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2014-04-28 15:32:27 +0800
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 12  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT  "articles".* FROM "articles"   ORDER BY created_at desc LIMIT 20 OFFSET 0[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  Rendered articles/index.slim within layouts/admin_layout (6.1ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-04-28 15:32:27 +0800
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2014-04-28 15:32:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-28 15:32:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-28 15:32:27 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-04-28 15:32:27 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-04-28 15:32:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-28 15:32:35 +0800
+Processing by BlogsController#index as HTML
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"   ORDER BY created_at desc
+  Rendered blogs/index.slim within layouts/blog_layout (0.8ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-04-28 15:32:35 +0800
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-04-28 15:32:35 +0800
+
+
+Started GET "/assets/blog.js" for 127.0.0.1 at 2014-04-28 15:32:35 +0800
+
+
+Started GET "/assets/jquery-2.1.0.min.js" for 127.0.0.1 at 2014-04-28 15:32:35 +0800
