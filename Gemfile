@@ -39,6 +39,9 @@ gem 'devise'
 # rich text editor
 gem 'rails_kindeditor'
 
+#分页插件
+gem 'kaminari'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

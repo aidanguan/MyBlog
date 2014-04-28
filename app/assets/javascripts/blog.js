@@ -1,4 +1,5 @@
 console.log($('.page').length)
+
 $(document).ready(function(){
 console.log($('.page').length)
 //往下翻页，

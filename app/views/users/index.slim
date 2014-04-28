@@ -28,4 +28,6 @@
               td = user.role
               td
                 = link_to '查看', user_path(user)
+      .page
+        = paginate @users
       end
